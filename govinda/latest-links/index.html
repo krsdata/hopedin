@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Banker Solution</title>
+
+    <!-- Bootstrap -->
+	<link href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	 <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  
+  <div class="header">
+  	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-3 logo">
+				<a href="index.html"><img src="img/logo.png"></a>	
+			</div>
+				
+			<div class="col-sm-9 menu-main">
+				<ul class="top-menu pull-left">
+					<li class="active"><a href="#">Cards <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+						<ul class="sub-menu" style="display:none">
+							<li><a href="#">Credit Cards</a></li>
+							<li><a href="#">Debit Cards</a></li>
+						</ul>
+					</li>
+					<li class="active"><a href="#">Personal Loan <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+						<ul class="sub-menu" style="display:none">
+						<li><a href="#">HDFC Personal Loan</a></li>
+						<li><a href="#">ICICI Personal Loan</a></li>
+						<li><a href="#">AXIS Personal Loan</a></li>
+						<li><a href="#">Other Personal Loan</a></li>
+						</ul>
+					</li>
+					<li class="active"><a href="#">Home Loan <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+						<ul class="sub-menu" style="display:none">
+						<li><a href="#">HDFC Home Loan</a></li>
+						<li><a href="#">TATA Home Loan</a></li>
+						<li><a href="#">SBI Home Loan</a></li>
+						<li><a href="#">Other Home Loan</a></li>
+						</ul>
+					</li>
+					<li class="active"><a href="#">Car Loan <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+						<ul class="sub-menu" style="display:none">
+						<li><a href="#">HDFC Car Loan</a></li>
+						<li><a href="#">ICICI Car Loan</a></li>
+						<li><a href="#">AXIS Car Loan</a></li>
+						<li><a href="#">Other Car Loan</a></li>
+						</ul>
+					</li>
+					<li class="active"><a href="#">Other Loans</a></li>
+					<li class="active"><a href="#">Finance Tools <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+						<ul class="sub-menu" style="display:none">
+						<li><a href="#">EMI Calculator</a></li>
+						<li><a href="#">Personal Loan EMI Calculator</a></li>
+						<li><a href="#">Home Loan EMI Calculator</a></li>
+						<li><a href="#">Car Loan EMI Calculator</a></li>
+						<li><a href="#">Personal Loan BT Calculator</a></li>
+						<li><a href="#">Home Loan BT Calculator</a></li>
+						<li><a href="#">Car Loan BT Calculator</a></li>
+						<li><a href="#">Gold Loan EMI Calculator</a></li>
+						<li><a href="#">Compound Interest Calculator</a></li>
+						<li><a href="#">Fixed Deposit Calculator</a></li>
+						<li><a href="#">Recurring Deposit Calculator</a></li>
+						</ul>
+					</li>
+					<span>
+					<li class="login-register"><a href="#">FREE CREDIT SCORE</a></li>
+					<li class="active" style=""><a href="login.html">Login</a></li>
+					
+					</span>
+				</ul>
+			</div>
+		</div>
+	</div>
+  </div>
+  
+  <div class="banner" style="position:relative;">
+  	<img src="img/main-banner.jpg">
+	<div class="banner-caption">
+		<div class="container-fluid">
+			<div class="row">
+			<div class="col-sm-5">
+			</div>
+			<div class="col-sm-7">
+			<h1>Want To Improve Your Credit Score Behaviour</h1>
+			<h2>Checking Your Credit Score Regularly May Be A Good Start</h2>
+			<p><img src="img/credit-meter.png"> A score of 750+ boosts your chances of getting a loan/Credit Card</p>
+			<p><img src="img/credit-meter.png"> The better your score, the more offers you'll be eligible for</p>
+			<p><img src="img/credit-meter.png"> Understanding your score helps you take the right next steps</p>
+			<br/><br/>
+			<p><a href="#"><img src="img/check-credit-report.png"></a></p>
+			</div>
+			</div>
+		</div>
+	</div>
+  </div>
+  
+  <div class="note">
+  	<marquee>Lorem ipsum dolor sit amet is the dummy text for describing the website content Lorem ipsum dolor sit amet is the dummy text for describing the website content</marquee>
+	<div class="note-bg">NOTE</div>
+  </div>
+  
+  <div class="service-icon">
+  		<div class="icon-box text-center">
+			<a href="#">
+			<div class="img-icon">
+				<img src="img/credit-icon.png" class="blue-icon">
+				<img src="img/credit-icon-hover.png" class="orange-icon" style="display:none;">
+			</div>
+			<div class="service-text">
+				<p>Credit Score</p>
+				<span>@all banks</span>
+			</div>
+			</a>
+		</div>
+		<div class="icon-box text-center">
+			<a href="#">
+			<div class="img-icon">
+				<img src="img/credit-card.png" class="blue-icon">
+				<img src="img/credit-card-hover.png" class="orange-icon" style="display:none;">
+			</div>
+			<div class="service-text">
+				<p>Credit Card</p>
+				<span>@all banks</span>
+			</div>
+			</a>
+		</div>
+		<div class="icon-box text-center">
+			<a href="#">
+			<div class="img-icon">
+				<img src="img/personal-loan.png" class="blue-icon">
+				<img src="img/personal-loan-hover.png" class="orange-icon" style="display:none;">
+			</div>
+			<div class="service-text">
+				<p>Personal Loan</p>
+				<span>@all banks</span>
+			</div>
+			</a>
+		</div>
+		<div class="icon-box text-center">
+			<a href="#">
+			<div class="img-icon">
+				<img src="img/other-loan.png" class="blue-icon">
+				<img src="img/other-loan-hover.png" class="orange-icon" style="display:none;">
+			</div>
+			<div class="service-text">
+				<p>Buisness Loan</p>
+				<span>@all banks</span>
+			</div>
+			</a>
+		</div>
+		<div class="icon-box text-center">
+			<a href="#">
+			<div class="img-icon">
+				<img src="img/car-loan.png" class="blue-icon">
+				<img src="img/car-loan-hover.png" class="orange-icon" style="display:none;">
+			</div>
+			<div class="service-text">
+				<p>Car Loan</p>
+				<span>@all banks</span>
+			</div>
+			</a>
+		</div>
+		<div class="icon-box text-center">
+			<a href="#">
+			<div class="img-icon">
+				<img src="img/used-car.png" class="blue-icon">
+				<img src="img/used-car-hover.png" class="orange-icon" style="display:none;">
+			</div>
+			<div class="service-text">
+				<p>Used Car Loan</p>
+				<span>@all banks</span>
+			</div>
+			</a>
+		</div>
+		<div class="icon-box text-center">
+			<a href="#">
+			<div class="img-icon">
+				<img src="img/home-loan.png" class="blue-icon">
+				<img src="img/home-loan-hover.png" class="orange-icon" style="display:none;">
+			</div>
+			<div class="service-text">
+				<p>Home Loan</p>
+				<span>@all banks</span>
+			</div>
+			</a>
+		</div>
+		<div class="icon-box text-center">
+			<a href="#">
+			<div class="img-icon">
+				<img src="img/home-loan.png" class="blue-icon">
+				<img src="img/home-loan-hover.png" class="orange-icon" style="display:none;">
+			</div>
+			<div class="service-text">
+				<p>Home Loan BT</p>
+				<span>@all banks</span>
+			</div>
+			</a>
+		</div>
+		<div class="icon-box text-center">
+			<a href="#">
+			<div class="img-icon">
+				<img src="img/gold-loan.png" class="blue-icon">
+				<img src="img/gold-loan-hover.png" class="orange-icon" style="display:none;">
+			</div>
+			<div class="service-text">
+				<p>Gold Loan</p>
+				<span>@all banks</span>
+			</div>
+			</a>
+		</div>
+		</div>
+		<div class="service-icon">
+		<div class="icon-box text-center">
+			<a href="#">
+			<div class="img-icon">
+				<img src="img/bike-loan.png" class="blue-icon">
+				<img src="img/bike-loan-hover.png" class="orange-icon" style="display:none;">
+			</div>
+			<div class="service-text">
+				<p>Two Wheller Loan</p>
+				<span>@all banks</span>
+			</div>
+			</a>
+		</div>
+		<div class="icon-box text-center">
+			<a href="#">
+			<div class="img-icon">
+				<img src="img/credit-card.png" class="blue-icon">
+				<img src="img/credit-card-hover.png" class="orange-icon" style="display:none;">
+			</div>
+			<div class="service-text">
+				<p>Secured Credit Card</p>
+				<span>@all banks</span>
+			</div>
+			</a>
+		</div>
+		<div class="icon-box text-center">
+			<a href="#">
+			<div class="img-icon">
+				<img src="img/personal-loan.png" class="blue-icon">
+				<img src="img/personal-loan-hover.png" class="orange-icon" style="display:none;">
+			</div>
+			<div class="service-text">
+				<p>Short Term Loan</p>
+				<span>@all banks</span>
+			</div>
+			</a>
+		</div>
+		<div class="icon-box text-center">
+			<a href="#">
+			<div class="img-icon">
+				<img src="img/doctor-loan.png" class="blue-icon">
+				<img src="img/doctor-loan-hover.png" class="orange-icon" style="display:none;">
+			</div>
+			<div class="service-text">
+				<p>Doctor Loan</p>
+				<span>@all banks</span>
+			</div>
+			</a>
+		</div>
+		<div class="icon-box text-center">
+			<a href="#">
+			<div class="img-icon">
+				<img src="img/used-car.png" class="blue-icon">
+				<img src="img/used-car-hover.png" class="orange-icon" style="display:none;">
+			</div>
+			<div class="service-text">
+				<p>Car Loan BT</p>
+				<span>@all banks</span>
+			</div>
+			</a>
+		</div>
+		<div class="icon-box text-center">
+			<a href="#">
+			<div class="img-icon">
+				<img src="img/car-loan.png" class="blue-icon">
+				<img src="img/car-loan-hover.png" class="orange-icon" style="display:none;">
+			</div>
+			<div class="service-text">
+				<p>Used Car Loan BT</p>
+				<span>@all banks</span>
+			</div>
+			</a>
+		</div>
+		<div class="icon-box text-center">
+			<a href="#">
+			<div class="img-icon">
+				<img src="img/property.png" class="blue-icon">
+				<img src="img/property-hover.png" class="orange-icon" style="display:none;">
+			</div>
+			<div class="service-text">
+				<p>Against Property</p>
+				<span>@all banks</span>
+			</div>
+			</a>
+		</div>
+		<div class="icon-box text-center">
+			<a href="#">
+			<div class="img-icon">
+				<img src="img/tools.png" class="blue-icon">
+				<img src="img/tools-hover.png" class="orange-icon" style="display:none;">
+			</div>
+			<div class="service-text">
+				<p>Finance Tools</p>
+				<span>@all banks</span>
+			</div>
+			</a>
+		</div>
+		<div class="icon-box text-center">
+			<a href="#">
+			<div class="img-icon">
+				<img src="img/credit-icon.png" class="blue-icon">
+				<img src="img/credit-icon-hover.png" class="orange-icon" style="display:none;">
+			</div>
+			<div class="service-text">
+				<p>Cibil</p>
+				<span>@all banks</span>
+			</div>
+			</a>
+		</div>
+  </div>
+  
+  <div class="clearfix"></div>
+  
+  <div class="why-us">
+  	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<h2>Why Banker solution</h2>
+				<p>Lorem ipsum dolor sit amet is the dummy text for web</p>
+			</div>
+		</div>
+		<div class="row bs-feature">
+			<div class="col-sm-4">
+				<div class="feature-box text-center">
+					<div class="feature-images text-center">
+						<img src="img/first.png">
+					</div>
+					<p>75+ Partners &<br/>
+						Over 300 Products
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="feature-box text-center">
+					<div class="feature-images text-center">
+						<img src="img/second.png">
+					</div>
+					<p>81,560,516<br/>
+						Satisfied Customer
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="feature-box text-center">
+					<div class="feature-images text-center">
+						<img src="img/third.png">
+					</div>
+					<p>Rs 360 Crore<br/>
+						Disbursed Monthly
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row bs-feature">
+			<div class="col-sm-4">
+				<div class="feature-box text-center">
+					<div class="feature-images text-center">
+						<img src="img/four.png">
+					</div>
+					<p>Secured System<br/>
+						To Keep Your Data Safe
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="feature-box text-center">
+					<div class="feature-images text-center">
+						<img src="img/five.png">
+					</div>
+					<p>One Of The Most Awarded<br/>
+						Financial Websites
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="feature-box text-center">
+					<div class="feature-images text-center">
+						<img src="img/six.png">
+					</div>
+					<p>bankersolution.com venture,<br/>
+						World's Leading Fintech Innovator
+					</p>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+  </div>
+  
+  <div class="training-products">
+  	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<h2 class="head-area">Trending Products</h2>
+				<p class="head-para">Lorem ipsum dolor sit amet is the dummy text for web</p>
+			</div>
+		</div>
+			<div class="row" style="">
+				<div class="col-sm-3 training-box">
+					<img src="img/credit-cards.jpg">
+					<h4>Credit Cars</h4>
+					<p>Our picks for the hottest offers and
+coolest deals all in one place</p>
+				</div>
+				<div class="col-sm-3 training-box">
+					<img src="img/personal-loan.jpg">
+					<h4>Quick Personal Loans</h4>
+					<p>Our picks for the hottest offers and
+coolest deals all in one place</p>
+				</div>
+				<div class="col-sm-3 training-box">
+					<img src="img/cibil-score.jpg">
+					<h4>Free Credit Score</h4>
+					<p>Our picks for the hottest offers and
+coolest deals all in one place</p>
+				</div>
+				<div class="col-sm-3 training-box">
+					<img src="img/finance-tools.jpg">
+					<h4>Finance Tools</h4>
+					<p>Our picks for the hottest offers and
+coolest deals all in one place</p>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-3 training-box">
+					<img src="img/personal-finance.jpg">
+					<h4>Personal Finance</h4>
+					<p>Our picks for the hottest offers and
+coolest deals all in one place</p>
+				</div>
+				<div class="col-sm-3 training-box">
+					<img src="img/investment.jpg">
+					<h4>Investment</h4>
+					<p>Our picks for the hottest offers and
+coolest deals all in one place</p>
+				</div>
+				<div class="col-sm-3 training-box">
+					<img src="img/property.jpg">
+					<h4>Property</h4>
+					<p>Our picks for the hottest offers and
+coolest deals all in one place</p>
+				</div>
+				<div class="col-sm-3 training-box">
+					<img src="img/loan.jpg">
+					<h4>All Types Loan</h4>
+					<p>Our picks for the hottest offers and
+coolest deals all in one place</p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class="customer-feedback">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h2 class="head-area">Delighting customers across India</h2>
+				<p class="head-para">Don’t just take it from us, let our customers do the talking!</p>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+				  <!-- Carousel indicators -->
+                  <ol class="carousel-indicators">
+				    <li data-target="#fade-quote-carousel" data-slide-to="0"></li>
+				    <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+				    <li data-target="#fade-quote-carousel" data-slide-to="2" class="active"></li>
+                    <li data-target="#fade-quote-carousel" data-slide-to="3"></li>
+                    <li data-target="#fade-quote-carousel" data-slide-to="4"></li>
+                    <li data-target="#fade-quote-carousel" data-slide-to="5"></li>
+				  </ol>
+				  <!-- Carousel items -->
+				  <div class="carousel-inner">
+				    <div class="item">
+                        <div class="profile-circle" style="background-color: rgba(0,0,0,.2);"><img src="img/user1.png"></div>
+						<p class="user-name text-center">James Portar</p>
+				    	<blockquote>
+				    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+				    	</blockquote>	
+				    </div>
+				    <div class="item">
+                        <div class="profile-circle" style="background-color: rgba(0,0,0,.2);"><img src="img/user1.png"></div>
+						<p class="user-name text-center">James Portar</p>
+				    	<blockquote>
+				    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+				    	</blockquote>
+				    </div>
+				    <div class="active item">
+                        <div class="profile-circle" style="background-color: rgba(0,0,0,.2);"><img src="img/user1.png"></div>
+						<p class="user-name text-center">James Portar</p>
+				    	<blockquote>
+				    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+				    	</blockquote>
+				    </div>
+                    <div class="item">
+                        <div class="profile-circle" style="background-color: rgba(0,0,0,.2);"><img src="img/user1.png"></div>
+						<p class="user-name text-center">James Portar</p>
+    			    	<blockquote>
+				    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+				    	</blockquote>
+				    </div>
+                    <div class="item">
+                        <div class="profile-circle" style="background-color: rgba(0,0,0,.2);"><img src="img/user1.png"></div>
+						<p class="user-name text-center">James Portar</p>
+    			    	<blockquote>
+				    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+				    	</blockquote>
+				    </div>
+                    <div class="item">
+                        <div class="profile-circle" style="background-color: rgba(0,0,0,.2);"><img src="img/user1.png"></div>
+						<p class="user-name text-center">James Portar</p>
+    			    	<blockquote>
+				    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+				    	</blockquote>
+				    </div>
+				  </div>
+				</div>
+				</div>
+			</div>
+			
+		</div>
+		
+		
+		
+	</div>
+	
+	<div class="loan-process">
+		<img src="img/loan-process.jpg" width="100%;">
+	</div>
+	
+	<div class="partner">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h2 class="head-area">Our Partners</h2>
+				<p class="head-para">We work with India's top banks & NBFCs</p>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 text-center">
+						<img src="img/partners.jpg" style="margin-top:30px;">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  
+  
+  
+	
+	<div class="resource">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<ul class="resource-list">
+						<li><a href="#"><b>RESOURCES:</b> </a></li>
+						<li><a href="#">Loan Eligibility</a></li>
+						<li><a href="#">Bank IFSC Code</a></li>
+						<li><a href="#">EMI Calculator</a></li>
+						<li><a href="#">Credit Score</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+					<h4>Credit Cards</h4>
+					<ul class="footer-list">
+						<li><a href="#">HDFC Credit Card</a></li>
+						<li><a href="#">ICICI Credit Card</a></li>
+						<li><a href="#">IndusInd Credit Card</a></li>
+						<li><a href="#">Other Credit Card</a></li>
+					</ul>
+					
+					<h4>Secured Credit Cards</h4>
+					<ul class="footer-list">
+						<li><a href="#">ICICI Secured Credit Card</a></li>
+						<li><a href="#">Citi Secured Credit Card</a></li>
+						<li><a href="#">SBI Secured Credit Card</a></li>
+						<li><a href="#">Other Secured Credit Card</a></li>
+					</ul>
+					
+				</div>
+				<div class="col-sm-2">
+					<h4>Personal Loan</h4>
+					<ul class="footer-list">
+						<li><a href="#">HDFC Personal Loan</a></li>
+						<li><a href="#">ICICI Personal Loan</a></li>
+						<li><a href="#">AXIS Personal Loan</a></li>
+						<li><a href="#">Other Personal Loan</a></li>
+					</ul>
+					
+					<h4>Business Loan</h4>
+					<ul class="footer-list">
+						<li><a href="#">ICICI Personal Loan</a></li>
+						<li><a href="#">HDFC Business Loan</a></li>
+						<li><a href="#">AXIS Business Loan</a></li>
+						<li><a href="#">Other Personal Loan</a></li>
+					</ul>
+					
+				</div>
+				<div class="col-sm-2">
+					<h4>Home Loan</h4>
+					<ul class="footer-list">
+						<li><a href="#">HDFC Home Loan</a></li>
+						<li><a href="#">TATA Home Loan</a></li>
+						<li><a href="#">SBI Home Loan</a></li>
+						<li><a href="#">Other Home Loan</a></li>
+					</ul>
+					
+					<h4>Loan against Property</h4>
+					<ul class="footer-list">
+						<li><a href="#">HDFC Mortgage Loan</a></li>
+						<li><a href="#">TATA Mortgage Loan</a></li>
+						<li><a href="#">SBI Mortgage Loan</a></li>
+						<li><a href="#">Other Mortgage Loan</a></li>
+					</ul>
+
+				</div>
+				<div class="col-sm-2">
+					<h4>Car Loan</h4>
+					<ul class="footer-list">
+						<li><a href="#">HDFC Car Loan</a></li>
+						<li><a href="#">ICICI Car Loan</a></li>
+						<li><a href="#">AXIS Car Loan</a></li>
+						<li><a href="#">Other Car Loan</a></li>
+					</ul>
+					
+					<h4>Used Car Loan</h4>
+					<ul class="footer-list">
+						<li><a href="#">HDFC Used Car Loan</a></li>
+						<li><a href="#">TATA Used Car Loan</a></li>
+						<li><a href="#">ICICI Used Car Loan</a></li>
+						<li><a href="#">Other User Car Loan</a></li>
+					</ul>
+					
+				</div>
+				<div class="col-sm-2">
+					<h4>Financial Tools</h4>
+					<ul class="footer-list">
+						<li><a href="#">EMI Calculator</a></li>
+						<li><a href="#">Personal Loan EMI Calculator</a></li>
+						<li><a href="#">Home Loan EMI Calculator</a></li>
+						<li><a href="#">Car Loan EMI Calculator</a></li>
+						<li><a href="#">Personal Loan BT Calculator</a></li>
+						<li><a href="#">Home Loan BT Calculator</a></li>
+						<li><a href="#">Car Loan BT Calculator</a></li>
+						<li><a href="#">Gold Loan EMI Calculator</a></li>
+						<li><a href="#">Compound Interest Calculator</a></li>
+						<li><a href="#">Fixed Deposit Calculator</a></li>
+						<li><a href="#">Recurring Deposit Calculator</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-2">
+					<h4>Info Pages</h4>
+					<ul class="footer-list">
+						<li><a href="#">PAN</a></li>
+						<li><a href="#">Aadhar</a></li>
+						<li><a href="#">Voter ID</a></li>
+						<li><a href="#">Passport</a></li>
+						<li><a href="#">Driving License</a></li>
+						<li><a href="#">EPF</a></li>
+						<li><a href="#">GST</a></li>
+						<li><a href="#">Tax</a></li>
+						<li><a href="#">Credit Score</a></li>
+						<li><a href="#">CIBIL Score</a></li>
+						<li><a href="#">Mutual Funds</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+			
+			<div class="row">
+				<div class="col-sm-12 others-link">
+					<a href="#">About Us</a> | <a href="#">Contact Us</a> | <a href="#">Terms of Use</a> | <a href="#">Disclaimer</a> | <a href="#">Privacy Policy</a> | <a href="#">Intellectual Policy</a> | <a href="#">Become a Partner</a> | <a href="#">Careers</a> | <a href="#">Blog</a> | <a href="#">FAQs</a>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="copyright">
+					<div class="col-sm-6">
+					<p style="margin-bottom:5px;">+91-1234567890 | support@bankersolution.com</p>
+						<p>Copyright @ 2018 Bankersolution.com | All right researved | <a href="#" style="color:#f39c12;">Privacy Policy</a></p>
+					</div>
+					<div class="col-sm-6">
+						<div class="social-icons pull-right">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-google-plus"></i></a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+	</div>
+  
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://use.fontawesome.com/a832a5b49f.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	
+  </body>
+</html>

@@ -1,0 +1,317 @@
+/* CSS Document */
+
+@media screen and (max-width: 1199px)
+{
+.menu li a {
+    color: #4d4d4d;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0px 7px;
+}
+.dest-content h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #103c67;
+    margin-bottom: 10px;
+}
+.dest-content p {
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.view-box
+{
+line-height:180px;
+}
+.product-content h3 {
+    font-size: 18px;
+    color: #103c67;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.product-content p {
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+}
+
+@media screen and (max-width: 991px)
+{
+.container
+{
+width:100%;
+}
+.search-container {
+    width: 75%;
+    margin: 0 auto;
+}
+.view-box
+{
+margin-top:2%;
+}
+.hotest-box h2 {
+    color: #ff0101;
+    font-size: 30px;
+    font-weight: 700;
+}
+}
+
+@media screen and (max-width: 900px)
+{
+.menu li a {
+    color: #4d4d4d;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: 700;
+    padding: 0px 7px;
+}
+.banner-content p
+{
+font-size:21px;
+}
+.banner-content h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 24px;
+    color: #103c67;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+h2 b {
+    font-size: 30px !important;
+}
+.search-container input[type="text"]
+{
+height:48px;
+}
+.search-container button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    color: #fff;
+    height: 48px;
+    width: 75px;
+    font-size: 21px;
+    background: #ffbd2f;
+}
+.hot-deal {
+    padding: 40px 0px;
+}
+.destination {
+    padding-bottom: 10px;
+}
+.hotest-box h2 {
+    color: #ff0101;
+    font-size: 24px;
+    font-weight: 700;
+}
+span.start-text {
+    font-size: 24px;
+    font-weight: 700;
+}
+.hotest-box a {
+    background: #ff0000;
+    color: #fff;
+    display: block;
+    width: 150px;
+    font-size: 18px;
+    padding: 5px 0px;
+    margin: 0 auto;
+}
+.sub-text {
+    color: #4d4d4d;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.tales-content.text-center
+{
+padding:10px;
+}
+.dest-content h4
+{
+font-size:14px;
+margin-bottom:5px;
+}
+.dest-content p {
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.dest-content {
+    float: left;
+    width: 50%;
+    padding: 8px 10px;
+    position: relative;
+}
+.most-viewed {
+    padding: 35px 0px;
+}
+.why-icons h4
+{
+font-size:16px;
+}
+.why-icons {
+    margin-bottom: 35px;
+}
+.tales-content h4 a
+{
+font-size:16px;
+}
+.tales-content p
+{
+font-size:13px;
+}
+.footer h4 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.footer ul li a {
+    color: #fff;
+    line-height: 18px;
+    font-size: 12px;
+}
+}
+
+@media screen and (max-width: 767px)
+{
+.respo-menu
+{
+display:block !important;
+}
+
+.logo {
+    float: left;
+}
+.logo img {
+    height: 50px !important;
+}
+.header {
+    line-height: 60px;
+}
+.responsive-menu {
+    float: right;
+    margin-top: 23px;
+}
+.col-sm-9 ul.menu {
+    display: none;
+}
+.banner-content p {
+    font-size: 18px;
+}
+.banner-content h1 {
+    font-size: 24px;
+}
+h2 b {
+    font-size: 21px !important;
+}
+h2 {
+    font-size: 18px;
+    color: #103c67;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.hot-deal {
+    padding: 25px 0px;
+}
+.sub-text {
+    color: #4d4d4d;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.hot-deal img {
+    width: 100%;
+}
+.hot-deal .col-sm-4 {
+    position: relative;
+    margin-bottom: 15px;
+}
+.most-viewed .col-sm-4
+{
+margin-bottom:15px;
+}
+
+.most-viewed .col-sm-4 img {
+    width: 100%;
+}
+.teles-box img {
+    width: 100%;
+}
+.teles-box {
+margin-bottom:15px;
+}
+}
+
+@media screen and (max-width: 480px)
+{
+.banner-content p {
+    font-size: 16px;
+}
+.banner-content h1 {
+    font-size: 21px;
+}
+h2 b {
+    font-size: 16px !important;
+}
+.search-container input[type="text"] {
+    height: 40px;
+}
+.search-container button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    color: #fff;
+    height: 40px;
+    width: 60px;
+    font-size: 18px;
+    background: #ffbd2f;
+}
+h2
+{
+margin-bottom:10px;
+}
+.banner-content h1 {
+    font-size: 16px;
+}
+.banner-content p {
+    font-size: 14px;
+}
+.banner-content h2 {
+    font-size: 14px;
+}
+.search-container input[type="text"] {
+    height: 35px;
+    font-size: 14px;
+}
+.search-container button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    color: #fff;
+    height: 35px;
+    width: 60px;
+    font-size: 18px;
+    background: #ffbd2f;
+}
+.search-container {
+    width: 89%;
+    margin: 0 auto;
+}
+.logo img {
+    height: 50px !important;
+}
+.header {
+    line-height: 60px;
+}
+}
